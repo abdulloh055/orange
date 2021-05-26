@@ -1,0 +1,257 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); */
+
+@font-face {
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 15px;
+}
+/*######################################################################################   HEADER   ##########################################################################################*/
+.header {
+    box-shadow: 0 2px 15px #777;
+    position: relative;
+    z-index: 1;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+.header__nav-logo {
+    width: 197px;
+}
+.header__nav-logo a {
+    width: 197px;
+    display: flex;
+    align-items: center;
+}
+.header__nav-menu {
+    display: flex;
+    align-items: center;
+}
+.menu-list + .menu-list {
+    margin-left: 34px;
+}
+.header__bg {
+    background: url(../images/header-photo_02.jpg) no-repeat center / cover;
+    height: 500px;
+}
+.menu-link{
+    color: #4e4e4e;
+    cursor: pointer;
+    transition: 0.2s ease-in-out; 
+}
+.menu-link:hover{
+    color: #dd4400;
+}
+.active {
+    color: #dd4400;
+    cursor: pointer;
+    transition: 0.2s ease-in-out; 
+}
+.active:hover {
+    color: #000;
+}
+.logo {
+    margin-right: 22px;
+}
+.logo-text {
+    color: #dd4400;
+}
+/*################################################################################   SECTION -1  #############################################################################################*/
+.card {
+    padding: 50px 0 100px;
+}
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 255px;
+    box-shadow: 0 0 10px #f5c3ae;
+    padding: 50px 0 30px;
+}
+.item-icon {
+    text-align: center;
+}
+.item-title {
+    width: 165px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.item-title h3 {
+    line-height: 27px;
+    font-size: 18px;
+    color: #dd4400;
+    font-weight: 700;
+}
+.line {
+    margin-left: 11px;
+    margin-bottom: 30px;
+    width: 163px;
+}
+.pc {
+    width: 100px;
+    margin-bottom: 24px;
+    height: 100px;
+}
+.item-btn a {
+    padding: 13px 60px 11px 60px;
+    background: #dd4400;
+    color: #fae6dd;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border-radius: 12px;
+    border: 1px solid transparent;
+}
+.item-btn a:hover {
+    color: #000;
+    background:#d2d2d2;
+    border: 1px solid #000;
+}
+.card__block {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.business {
+    width: 100px;
+}
+.main__block{
+    width: 717px;
+}
+.second__block{
+    width: 251px;
+}
+/*#######################################################################################   SECTION -2  ###################################################################################*/
+.info__block{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.main__block h2 {
+    width: 18,17cm;
+    height: 0,95cm;
+    margin-bottom: 24px;
+    color: #5e5e5e;
+}
+.main__block p{
+    width: 25,65cm;
+    height: 10,23cm;
+    margin-bottom: 24px;
+    color: #5e5e5e;
+}
+.main__block a {
+    padding: 13px 60px 11px 60px;
+    background: #dd4400;
+    color: #fae6dd;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border-radius: 12px;
+    border: 1px solid transparent;
+}
+.main__block a:hover {
+    color: #000;
+    background:#d2d2d2;
+    border: 1px solid #000;
+}
+.second-item{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-bottom: 16px;
+}
+.second__block h2 {
+    margin-bottom: 24px;
+    color: #5e5e5e;
+}
+.second-item  a{
+    color: #dd4400;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-left: 20px;
+}
+.second-item a:hover{
+    color: #000;
+}
+/*################################################################################  FOOTER BLOCK  #############################################################################################*/
+.footer__block{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    background: #dd4400;
+    align-items: center;
+}
+.on{
+    text-align: center;
+    color: #fff;
+}
+.on a{
+    text-size-adjust: 30;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.on a:hover{
+    color: #000;
+}
+.two{
+    text-align: center;
+    color: #fff;
+}
+.two a{
+    text-size-adjust: 30;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.two a:hover{
+    color: #000;
+}
+.footer-phone{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
